@@ -1,4 +1,4 @@
-```lua
+
 
 local function option1()
    -- Your code here
@@ -92,4 +92,4 @@ while true do
    gg.sleep(100)
 
 end
-```
+
