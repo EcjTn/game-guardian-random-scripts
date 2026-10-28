@@ -1,4 +1,5 @@
--- for Mobile Legends (or MLBB)  (October 28, 2026)
+-- for Mobile Legends (or MLBB) 
+-- As of October 28, 2026, the script is working.
 
 local function goldInjector()
     gg.clearResults()
