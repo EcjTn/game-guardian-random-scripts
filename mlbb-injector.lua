@@ -1,3 +1,5 @@
+-- Mobile Legends (or MLBB) Script (October 28, 2026)
+
 local function coinInjector()
     gg.searchNumber("300", gg.TYPE_DWORD)
     gg.sleep(4000) -- Buy first item to adjust coin to 50
