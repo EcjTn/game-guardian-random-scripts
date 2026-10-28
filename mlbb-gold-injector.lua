@@ -5,7 +5,7 @@ local function goldInjector()
     gg.clearResults()
     gg.searchNumber("300", gg.TYPE_DWORD)
 
-    gg.sleep(5000) -- Buy the first item to adjust gold to 50
+    gg.sleep(5000)
 
     gg.refineNumber("50", gg.TYPE_DWORD)
     gg.editAll("20000", gg.TYPE_DWORD)
