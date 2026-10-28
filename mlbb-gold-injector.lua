@@ -4,6 +4,7 @@
 local function goldInjector()
     gg.clearResults()
     gg.searchNumber("300", gg.TYPE_DWORD)
+    gg.toast("Initial scan done")
 
     gg.sleep(5000)
 
