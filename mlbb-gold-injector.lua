@@ -4,12 +4,16 @@
 local function goldInjector()
     gg.clearResults()
     gg.searchNumber("300", gg.TYPE_DWORD)
+    local results = gg.getResults(100)
     gg.toast("Initial scan done")
 
     gg.sleep(5000)
+    gg.toast("5s done")
 
     gg.refineNumber("50", gg.TYPE_DWORD)
+    local refinedResults = gg.getResults(100)
     gg.editAll("20000", gg.TYPE_DWORD)
+    gg.toast("Gold injected.")
     gg.clearResults()
 end
 
